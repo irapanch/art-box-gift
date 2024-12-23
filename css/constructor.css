@@ -50,6 +50,11 @@ html {
   scroll-behavior: smooth;
 }
 
+a:-webkit-any-link {
+  color: inherit;
+  cursor: pointer;
+}
+
 body {
   min-height: 100vh;
   scroll-behavior: smooth;
