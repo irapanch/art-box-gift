@@ -1,3 +1,7 @@
+main {
+ 
+  overflow-x: clip;
+}
 .wrapper-out {
   height: 100%;
   padding: 17px 13px;
