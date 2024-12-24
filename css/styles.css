@@ -212,9 +212,7 @@ min-height: 365px;
   align-items: center;
   gap: 20px;
 }
-.for-whom{
-  
-}
+
 
 .img-for {
   margin-top: 3rem;
@@ -256,6 +254,7 @@ min-height: 365px;
 }
 
 .composition-btn {
+  background-color: #f0f0f0;
   color: #1c2b51;
   font-family: Cormorant;
   font-size: 2rem;
@@ -267,9 +266,13 @@ min-height: 365px;
   border: 2px solid #1c2b51;
   border-radius: 6px;
   padding: 1rem 0.6rem;
+  text-align: center;
+  margin: auto;
   margin-bottom: 2rem;
 }
-
+.composition-list{
+  background-color: #f0f0f0;
+}
 .composition-item {
   display: flex;
   border: 1px solid #1c2b51;
@@ -331,6 +334,24 @@ min-height: 365px;
   width: 68px;
   height: 68px;
 } */
+
+
+.reviews-list{
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+.reviews-item {
+  max-width: 50%;
+  flex: 0 1 calc(50% - 10px);
+  margin: auto;
+}
+.reviews-item img {
+width: 100% ;
+  height: auto;
+  
+}
 .footer-main {
   background: linear-gradient(0deg, #66759d 0%, #1c2b51 100%);
   margin-top: 2rem;
