@@ -99,14 +99,14 @@ select {
   right: 20px;
   width: 50px;
   height: 50px;
-  color: #fff !important;
-  background: #6f3857;
+  color: #1c2b51;
+  background: #fff ;
   border-radius: 50%;
-  background: linear-gradient(0deg, #66759d 0%, #6f3857 100%);
+  border: 2px solid  #1c2b51;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   opacity: 0;
   pointer-events: none;
   transition: all 0.25s;
