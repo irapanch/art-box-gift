@@ -29,10 +29,11 @@ main {
   position: relative;
 }
 .header-logo {
-  max-width: 150px;
+  max-width: 90px;
   width: 100%;
   height: auto;
   margin-bottom: 3rem;
+  margin-top: 17px;
 }
 /* ---------- mobile-menu---------  */
 .header__menu {
@@ -148,12 +149,7 @@ main {
   transition: background-color 0.3s;
   text-align: center;
 }
-.btn-order:hover {
-  background-color: #ac5496;
-}
-.btn-header:hover {
-  background-color: #1c2b51;
-}
+
 
 .about {
   background: #f0f0f0;
@@ -281,7 +277,7 @@ main {
 }
 
 .order {
-  background-image: url(../img/box-into.png);
+  background-image: url(../img/box-into.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -375,7 +371,6 @@ main {
   top: 0;
   left: 50%;
   transform: translateX(-50%); 
-  /* padding: 20px; */
   background-color: white;
   z-index: 1000;
   overflow-y: auto;
